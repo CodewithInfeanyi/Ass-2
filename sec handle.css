@@ -1,0 +1,190 @@
+:root{
+    
+    --VeryPaleCyan: hsl(193, 100%, 96%);
+    --VeryDarkCyan: hsl(192, 100%, 9%);
+    --GrayishBlue: hsl(208, 11%, 55%);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+section{
+    background-color: aliceblue;
+    #main-div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px; 
+        #main-p{
+            width: 120px;
+            text-align: center;
+            background-color: white;
+            border-radius: 12px;
+            padding: 10px;
+        }
+    }
+    #first-div{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        margin-top: 20px;
+        gap: 20px;
+        #mockup-img{
+            width: 120%;
+        }
+        #second-div{
+            width: 95%;
+            margin-top: 20px;
+            h1{
+                font-size: 1.5rem;
+                padding: 20%;
+                margin-left: -20%;
+                margin-top: -15%;
+            }
+            #first-p{
+                margin-top: -15%;
+            }
+            #sec-p{
+                background-color: rgb(231, 30, 171);
+                padding: 12px;
+                width: 200px;
+                text-align: center;
+                color: white;
+                border-radius: 15px;
+                margin-top: 30px;
+            }
+        }
+    }
+}
+#image-div{
+    display: flex;
+    align-items: center;
+    box-shadow: 00px 00px 5px  hsla(209, 11%, 55%, 0.308);
+    margin: 20px 20px;
+    border-radius: 6px;
+    gap: 20px;
+    #grow-img{
+        width: 110%;
+        margin: 30px 15px;
+    }
+    .ist-span{
+        padding: 20px;
+        margin-left: 15px;
+        h2{
+            margin-bottom: 15px;
+        }
+    }
+}
+#sec-div{
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(231, 229, 229);
+    width: 400px;
+    h3{
+        padding: 20px;
+    }
+    button{
+        background-color: rgb(230, 73, 151);
+        padding: 7px;
+        color: white;
+        width: 200px;
+        border-radius: 10px;
+        margin-bottom: 15px;
+    }
+}
+footer{
+    background-color: black;
+    align-items: center;
+    color: white;
+    #logo-img2{
+        margin-left: 15px;
+        margin-top: 20px;
+        color: white;
+    }
+    #png-icon{
+        width: 20px;
+    }
+    #footer-p{
+        font-size: 13px;
+        margin-left: -10%;
+    }
+    #main-span{
+        display: flex;
+        padding: 5px;
+        gap: 20px;
+    }
+    #third-div{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        margin-left: 40px;
+        #location-span{
+            display: flex;
+            justify-content: space-evenly;
+            gap: 10%;
+            margin-left: -40px;
+        }
+    }
+    #phone-p{
+        margin-bottom: 10px;
+    }
+    #contact-div{
+        display: flex;
+        gap: 38%;
+        margin-top: -10px;
+        margin-left: 20px;
+        #phone{
+            margin-left: -200px;
+        }
+    }
+    #huddle-div{
+        display: flex;
+        justify-content: space-between;
+        padding: 15px;
+        #last-p{
+            font-size: 13px;
+            margin-top: 35px;
+            margin-bottom: 30px;
+        }
+    }
+}
+@media only screen and (min-width: 360px) and (max-width: 600px){
+    #first-div{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        h1{
+            margin-right: -100px;
+            text-align: center;
+        }
+        #mockup-img{
+            width: 40%;
+        }
+        #sec-p{
+            margin-left: 100px;
+        }
+    }
+    #logo-img{
+        width: 30%;
+        margin-right: 20px;
+    }
+    #sec-div{
+        width: 80%;
+        margin: 0 auto;
+    }
+    #third-div{
+        display: flex;
+        flex-direction: column;
+    }
+    #contact-div{
+        display: flex;
+        flex-direction: column;
+    }
+}
